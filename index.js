@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const port = process.env.PORT||8000;
-const Expense = require("./models/expense");
+const Expense = require("./expense");
 mongoose.connect(
   "mongodb+srv://hari:kongu2023@cluster0.avrxseu.mongodb.net/?retryWrites=true&w=majority/HP/users",
   {
